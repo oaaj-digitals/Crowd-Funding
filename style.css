@@ -557,7 +557,11 @@ p .numbs {
 
     .site-title {
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 3rem;
+    }
+
+    p .numbs {
+        font-size: 2.5rem;
     }
 
     .menu-icon {
@@ -635,7 +639,7 @@ p .numbs {
     }
 
     .value {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .modal-container {
