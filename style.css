@@ -555,9 +555,9 @@ p .numbs {
         /* padding: 5rem 7%; */
     }
 
-    .site-title {
-        text-align: center;
+    .main-heading_title {
         font-size: 2rem;
+        text-align: center;
     }
 
     p .numbs {
