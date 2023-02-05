@@ -21,10 +21,6 @@ body {
     background-color: rgb(231, 231, 231);
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
 a,
 .link,
 a:link,
