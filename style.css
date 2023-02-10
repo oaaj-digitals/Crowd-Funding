@@ -563,11 +563,23 @@ p .numbs {
     .menu-icon {
         display: block !important;
         font-size: 3rem;
-        z-index: 40;
+        z-index: 400;
+    }
+
+    nav {
+        width:100%;
+        height: 100vh;
+        background-color: rgb(0,0,0,0.3);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 200;
+        display: none;
+        justify-content: center;
     }
 
     #nav-div {
-        display: none ;
+        display: flex ;
         width: 90%;
         background-color: rgb(240, 240, 240);
         color: hsl(0, 0%, 24%);

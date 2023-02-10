@@ -134,15 +134,23 @@ bookmarkBtn.addEventListener("click", () => {
 
 let menuIcon = document.querySelector(".menu-icon");
 menuIcon.addEventListener("click", () => {
-	let menu = document.getElementById("nav-div");
+	let menu = document.getElementById("nav");
 	// console.log(menu);
 	if (menu.style.display == "flex") {
 		menu.style.display = "none";
 		menuIcon.classList.add("fa-bars");
 		menuIcon.classList.remove("fa-angle-up");
+
+		menuIcon.style.position = "relative";
+		menuIcon.style.top = "0";
+		menuIcon.style.right = "0";
 	} else {
 		menu.style.display = "flex";
 		menuIcon.classList.remove("fa-bars");
 		menuIcon.classList.add("fa-angle-up");
+
+		menuIcon.style.position = "fixed";
+		menuIcon.style.top = "4rem";
+		menuIcon.style.right = "10%";
 	}
 });
